@@ -1,0 +1,21 @@
+Dashboard
+
+Date: Mon Feb 26 22:55:02 2024
+
+User: SuryaJB
+
+Version: T-2022.06-SP1
+Command line: urg -dir mem_cov2.vdb -format both -report urgReport
+Number of tests: 1
+
+-------------------------------------------------------------------------------
+Total Coverage Summary 
+SCORE  GROUP  
+100.00 100.00 
+
+
+-------------------------------------------------------------------------------
+Total Groups Coverage Summary 
+SCORE  INST SCORE WEIGHT 
+100.00 100.00     1      
+

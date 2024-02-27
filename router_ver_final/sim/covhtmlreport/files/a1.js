@@ -1,0 +1,2 @@
+var g_data = {"22":{"pr":"/router_test_pkg","ty":2,"dui":3,"dun":"work.router_test_pkg","asserts":[{"n":["src_driver/build_phase/immed__29"],"h":[0,1]},{"n":["dst_sequencer/build_phase/immed__24"],"h":[0,1]},{"n":["dst_driver/build_phase/immed__28"],"h":[0,1]},{"n":["router_tb/build_phase/immed__51"],"h":[0,1]},{"n":["router_test_base/config_router/#anonblk#424663#55#2#/#ublk#424663#56/immed__60"],"h":[0,1]}],"ad":0}}
+processAssertionsData(g_data);

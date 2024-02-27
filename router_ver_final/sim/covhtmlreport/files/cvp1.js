@@ -1,0 +1,2 @@
+var g_data = {"24":["addrs"],"25":["small_packet","mid_packet","large_packet"],"28":["addrs"],"29":["small_packet","mid_packet","large_packet"],"32":["low"],"33":["small_packet","mid_packet","large_packet"],"36":["low"],"37":["small_packet","mid_packet","large_packet"]};
+processCoverpointsMapData(g_data);

@@ -1,0 +1,412 @@
+Group : router_test_pkg::scoreboard::router_fcov1
+
+===============================================================================
+Group : router_test_pkg::scoreboard::router_fcov1
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+100.00 100.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/home1/BRN34/SuryaJB/VLSI_RN/UVM_LABS/router_ver_final/sim/../tb/scoreboard.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                    
+100.00 1      100    1        64           64            top.me.obj.router_fcov1 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   router_test_pkg::scoreboard::router_fcov1
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 4        0         4       100.00  
+Crosses   3        0         3       100.00  
+
+
+Variables for Group  router_test_pkg::scoreboard::router_fcov1
+
+
+VARIABLE     EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+ADDRESS      1        0         1       100.00  100  1      1        0                    
+PAYLOAD_SIZE 3        0         3       100.00  100  1      1        0                    
+
+
+Crosses for Group  router_test_pkg::scoreboard::router_fcov1
+
+
+CROSS                  EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+CHANNEL_X_PAYLOAD_SIZE 3        0         3       100.00  100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable ADDRESS
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 1        0         1       100.00  
+
+
+User Defined Bins for ADDRESS
+
+
+Bins
+
+NAME  COUNT AT LEAST 
+addrs 18000 1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable PAYLOAD_SIZE
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        0         3       100.00  
+
+
+User Defined Bins for PAYLOAD_SIZE
+
+
+Bins
+
+NAME         COUNT AT LEAST 
+large_packet 6000  1        
+mid_packet   6000  1        
+small_packet 6000  1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross CHANNEL_X_PAYLOAD_SIZE
+
+
+Samples crossed: ADDRESS PAYLOAD_SIZE
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 3        0         3       100.00          
+
+
+Automatically Generated Cross Bins for CHANNEL_X_PAYLOAD_SIZE
+
+
+Bins
+
+ADDRESS PAYLOAD_SIZE COUNT AT LEAST 
+addrs   mid_packet   6000  1        
+addrs   large_packet 6000  1        
+addrs   small_packet 6000  1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : top.me.obj.router_fcov1
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+100.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                      
+100.00 100.00    1      100    1        1            64           64                    router_test_pkg::scoreboard::router_fcov1 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   top.me.obj.router_fcov1
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 4        0         4       100.00  
+Crosses   3        0         3       100.00  
+
+
+Variables for Group Instance  top.me.obj.router_fcov1
+
+
+VARIABLE     EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+ADDRESS      1        0         1       100.00  100  1      1        0                    
+PAYLOAD_SIZE 3        0         3       100.00  100  1      1        0                    
+
+
+Crosses for Group Instance  top.me.obj.router_fcov1
+
+
+CROSS                  EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+CHANNEL_X_PAYLOAD_SIZE 3        0         3       100.00  100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable ADDRESS
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 1        0         1       100.00  
+
+
+User Defined Bins for ADDRESS
+
+
+Bins
+
+NAME  COUNT AT LEAST 
+addrs 18000 1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable PAYLOAD_SIZE
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        0         3       100.00  
+
+
+User Defined Bins for PAYLOAD_SIZE
+
+
+Bins
+
+NAME         COUNT AT LEAST 
+large_packet 6000  1        
+mid_packet   6000  1        
+small_packet 6000  1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross CHANNEL_X_PAYLOAD_SIZE
+
+
+Samples crossed: ADDRESS PAYLOAD_SIZE
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 3        0         3       100.00          
+
+
+Automatically Generated Cross Bins for CHANNEL_X_PAYLOAD_SIZE
+
+
+Bins
+
+ADDRESS PAYLOAD_SIZE COUNT AT LEAST 
+addrs   mid_packet   6000  1        
+addrs   large_packet 6000  1        
+addrs   small_packet 6000  1        
+
+
+Group : router_test_pkg::scoreboard::router_fcov2
+
+===============================================================================
+Group : router_test_pkg::scoreboard::router_fcov2
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+100.00 100.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/home1/BRN34/SuryaJB/VLSI_RN/UVM_LABS/router_ver_final/sim/../tb/scoreboard.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                    
+100.00 1      100    1        64           64            top.me.obj.router_fcov2 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   router_test_pkg::scoreboard::router_fcov2
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 4        0         4       100.00  
+Crosses   3        0         3       100.00  
+
+
+Variables for Group  router_test_pkg::scoreboard::router_fcov2
+
+
+VARIABLE     EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+CHANNEL      1        0         1       100.00  100  1      1        0                    
+PAYLOAD_SIZE 3        0         3       100.00  100  1      1        0                    
+
+
+Crosses for Group  router_test_pkg::scoreboard::router_fcov2
+
+
+CROSS                  EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+CHANNEL_X_PAYLOAD_SIZE 3        0         3       100.00  100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable CHANNEL
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 1        0         1       100.00  
+
+
+User Defined Bins for CHANNEL
+
+
+Bins
+
+NAME COUNT AT LEAST 
+low  18000 1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable PAYLOAD_SIZE
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        0         3       100.00  
+
+
+User Defined Bins for PAYLOAD_SIZE
+
+
+Bins
+
+NAME         COUNT AT LEAST 
+large_packet 6000  1        
+mid_packet   6000  1        
+small_packet 6000  1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross CHANNEL_X_PAYLOAD_SIZE
+
+
+Samples crossed: CHANNEL PAYLOAD_SIZE
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 3        0         3       100.00          
+
+
+Automatically Generated Cross Bins for CHANNEL_X_PAYLOAD_SIZE
+
+
+Bins
+
+CHANNEL PAYLOAD_SIZE COUNT AT LEAST 
+low     mid_packet   6000  1        
+low     large_packet 6000  1        
+low     small_packet 6000  1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : top.me.obj.router_fcov2
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+100.00 1      100    1        64           64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                                      
+100.00 100.00    1      100    1        1            64           64                    router_test_pkg::scoreboard::router_fcov2 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   top.me.obj.router_fcov2
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 4        0         4       100.00  
+Crosses   3        0         3       100.00  
+
+
+Variables for Group Instance  top.me.obj.router_fcov2
+
+
+VARIABLE     EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+CHANNEL      1        0         1       100.00  100  1      1        0                    
+PAYLOAD_SIZE 3        0         3       100.00  100  1      1        0                    
+
+
+Crosses for Group Instance  top.me.obj.router_fcov2
+
+
+CROSS                  EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST PRINT MISSING COMMENT 
+CHANNEL_X_PAYLOAD_SIZE 3        0         3       100.00  100  1      1        0                     
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable CHANNEL
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 1        0         1       100.00  
+
+
+User Defined Bins for CHANNEL
+
+
+Bins
+
+NAME COUNT AT LEAST 
+low  18000 1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable PAYLOAD_SIZE
+
+
+CATEGORY          EXPECTED UNCOVERED COVERED PERCENT 
+User Defined Bins 3        0         3       100.00  
+
+
+User Defined Bins for PAYLOAD_SIZE
+
+
+Bins
+
+NAME         COUNT AT LEAST 
+large_packet 6000  1        
+mid_packet   6000  1        
+small_packet 6000  1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Cross CHANNEL_X_PAYLOAD_SIZE
+
+
+Samples crossed: CHANNEL PAYLOAD_SIZE
+CATEGORY                           EXPECTED UNCOVERED COVERED PERCENT MISSING 
+Automatically Generated Cross Bins 3        0         3       100.00          
+
+
+Automatically Generated Cross Bins for CHANNEL_X_PAYLOAD_SIZE
+
+
+Bins
+
+CHANNEL PAYLOAD_SIZE COUNT AT LEAST 
+low     mid_packet   6000  1        
+low     large_packet 6000  1        
+low     small_packet 6000  1        
+
+
